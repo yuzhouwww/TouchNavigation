@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B59655FB1772F05D00FED1BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59655FA1772F05D00FED1BC /* UIKit.framework */; };
+		B59655FD1772F05D00FED1BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59655FC1772F05D00FED1BC /* Foundation.framework */; };
+		B59655FF1772F05D00FED1BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59655FE1772F05D00FED1BC /* CoreGraphics.framework */; };
+		B59656051772F05D00FED1BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B59656031772F05D00FED1BC /* InfoPlist.strings */; };
+		B59656071772F05D00FED1BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B59656061772F05D00FED1BC /* main.m */; };
+		B596560B1772F05D00FED1BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B596560A1772F05D00FED1BC /* AppDelegate.m */; };
+		B596560D1772F05D00FED1BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B596560C1772F05D00FED1BC /* Default.png */; };
+		B596560F1772F05D00FED1BC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B596560E1772F05D00FED1BC /* Default@2x.png */; };
+		B59656111772F05D00FED1BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59656101772F05D00FED1BC /* Default-568h@2x.png */; };
+		B59656141772F05E00FED1BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59656131772F05E00FED1BC /* ViewController.m */; };
+		B59656171772F05E00FED1BC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59656151772F05E00FED1BC /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B59655F71772F05C00FED1BC /* TouchNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59655FA1772F05D00FED1BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B59655FC1772F05D00FED1BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B59655FE1772F05D00FED1BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B59656021772F05D00FED1BC /* TouchNavigation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchNavigation-Info.plist"; sourceTree = "<group>"; };
+		B59656041772F05D00FED1BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B59656061772F05D00FED1BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B59656081772F05D00FED1BC /* TouchNavigation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TouchNavigation-Prefix.pch"; sourceTree = "<group>"; };
+		B59656091772F05D00FED1BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B596560A1772F05D00FED1BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B596560C1772F05D00FED1BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B596560E1772F05D00FED1BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B59656101772F05D00FED1BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B59656121772F05E00FED1BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B59656131772F05E00FED1BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B59656161772F05E00FED1BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B59655F41772F05C00FED1BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59655FB1772F05D00FED1BC /* UIKit.framework in Frameworks */,
+				B59655FD1772F05D00FED1BC /* Foundation.framework in Frameworks */,
+				B59655FF1772F05D00FED1BC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B59655EE1772F05C00FED1BC = {
+			isa = PBXGroup;
+			children = (
+				B59656001772F05D00FED1BC /* TouchNavigation */,
+				B59655F91772F05C00FED1BC /* Frameworks */,
+				B59655F81772F05C00FED1BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B59655F81772F05C00FED1BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B59655F71772F05C00FED1BC /* TouchNavigation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B59655F91772F05C00FED1BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B59655FA1772F05D00FED1BC /* UIKit.framework */,
+				B59655FC1772F05D00FED1BC /* Foundation.framework */,
+				B59655FE1772F05D00FED1BC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B59656001772F05D00FED1BC /* TouchNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				B59656091772F05D00FED1BC /* AppDelegate.h */,
+				B596560A1772F05D00FED1BC /* AppDelegate.m */,
+				B59656121772F05E00FED1BC /* ViewController.h */,
+				B59656131772F05E00FED1BC /* ViewController.m */,
+				B59656151772F05E00FED1BC /* ViewController.xib */,
+				B59656011772F05D00FED1BC /* Supporting Files */,
+			);
+			path = TouchNavigation;
+			sourceTree = "<group>";
+		};
+		B59656011772F05D00FED1BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B59656021772F05D00FED1BC /* TouchNavigation-Info.plist */,
+				B59656031772F05D00FED1BC /* InfoPlist.strings */,
+				B59656061772F05D00FED1BC /* main.m */,
+				B59656081772F05D00FED1BC /* TouchNavigation-Prefix.pch */,
+				B596560C1772F05D00FED1BC /* Default.png */,
+				B596560E1772F05D00FED1BC /* Default@2x.png */,
+				B59656101772F05D00FED1BC /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B59655F61772F05C00FED1BC /* TouchNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B596561A1772F05E00FED1BC /* Build configuration list for PBXNativeTarget "TouchNavigation" */;
+			buildPhases = (
+				B59655F31772F05C00FED1BC /* Sources */,
+				B59655F41772F05C00FED1BC /* Frameworks */,
+				B59655F51772F05C00FED1BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchNavigation;
+			productName = TouchNavigation;
+			productReference = B59655F71772F05C00FED1BC /* TouchNavigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B59655EF1772F05C00FED1BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = wzyk;
+			};
+			buildConfigurationList = B59655F21772F05C00FED1BC /* Build configuration list for PBXProject "TouchNavigation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B59655EE1772F05C00FED1BC;
+			productRefGroup = B59655F81772F05C00FED1BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B59655F61772F05C00FED1BC /* TouchNavigation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B59655F51772F05C00FED1BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59656051772F05D00FED1BC /* InfoPlist.strings in Resources */,
+				B596560D1772F05D00FED1BC /* Default.png in Resources */,
+				B596560F1772F05D00FED1BC /* Default@2x.png in Resources */,
+				B59656111772F05D00FED1BC /* Default-568h@2x.png in Resources */,
+				B59656171772F05E00FED1BC /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B59655F31772F05C00FED1BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59656071772F05D00FED1BC /* main.m in Sources */,
+				B596560B1772F05D00FED1BC /* AppDelegate.m in Sources */,
+				B59656141772F05E00FED1BC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B59656031772F05D00FED1BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B59656041772F05D00FED1BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B59656151772F05E00FED1BC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B59656161772F05E00FED1BC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B59656181772F05E00FED1BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B59656191772F05E00FED1BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B596561B1772F05E00FED1BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchNavigation/TouchNavigation-Prefix.pch";
+				INFOPLIST_FILE = "TouchNavigation/TouchNavigation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B596561C1772F05E00FED1BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchNavigation/TouchNavigation-Prefix.pch";
+				INFOPLIST_FILE = "TouchNavigation/TouchNavigation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B59655F21772F05C00FED1BC /* Build configuration list for PBXProject "TouchNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59656181772F05E00FED1BC /* Debug */,
+				B59656191772F05E00FED1BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B596561A1772F05E00FED1BC /* Build configuration list for PBXNativeTarget "TouchNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B596561B1772F05E00FED1BC /* Debug */,
+				B596561C1772F05E00FED1BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B59655EF1772F05C00FED1BC /* Project object */;
+}
