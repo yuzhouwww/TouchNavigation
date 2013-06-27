@@ -194,7 +194,7 @@
             if (gestureBegan) {
                 float vx = [gesture velocityInView:self.view].x;
                 float vy = [gesture velocityInView:self.view].y;
-                if (vx != 0 && ABS(vy / vx) < 0.25) {
+                if (vx != 0 && ABS(vy / vx) <  0.75) {
                     shouldSlide = YES;
                 }
                 gestureBegan = NO;
@@ -226,7 +226,9 @@
                     }
                     else {
                         [UIView animateWithDuration:0.5 animations:^{
-                            [self transitionViewControllerToTop:topViewController animated:YES completion:nil];
+                            CGRect rect = topViewController.view.frame;
+                            rect.origin.x = 0;
+                            topViewController.view.frame = rect;
                             [self fadeBottomViewControllerByValue:0];
                         }];
                     }
