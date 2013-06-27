@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5560B7E17775395007D6195 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5560B7D17775395007D6195 /* QuartzCore.framework */; };
 		B59655FB1772F05D00FED1BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59655FA1772F05D00FED1BC /* UIKit.framework */; };
 		B59655FD1772F05D00FED1BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59655FC1772F05D00FED1BC /* Foundation.framework */; };
 		B59655FF1772F05D00FED1BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59655FE1772F05D00FED1BC /* CoreGraphics.framework */; };
@@ -18,9 +19,14 @@
 		B59656111772F05D00FED1BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59656101772F05D00FED1BC /* Default-568h@2x.png */; };
 		B59656141772F05E00FED1BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59656131772F05E00FED1BC /* ViewController.m */; };
 		B59656171772F05E00FED1BC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59656151772F05E00FED1BC /* ViewController.xib */; };
+		B596561F1772FA2D00FED1BC /* TouchNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B596561E1772FA2D00FED1BC /* TouchNavigationController.m */; };
+		B596562217730E7600FED1BC /* TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B596562117730E7600FED1BC /* TouchViewController.m */; };
+		B59656261773E64C00FED1BC /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59656241773E64C00FED1BC /* TestViewController.m */; };
+		B59656271773E64C00FED1BC /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B59656251773E64C00FED1BC /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B5560B7D17775395007D6195 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B59655F71772F05C00FED1BC /* TouchNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59655FA1772F05D00FED1BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B59655FC1772F05D00FED1BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +43,13 @@
 		B59656121772F05E00FED1BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B59656131772F05E00FED1BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B59656161772F05E00FED1BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B596561D1772FA2D00FED1BC /* TouchNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchNavigationController.h; sourceTree = "<group>"; };
+		B596561E1772FA2D00FED1BC /* TouchNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchNavigationController.m; sourceTree = "<group>"; };
+		B596562017730E7600FED1BC /* TouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchViewController.h; sourceTree = "<group>"; };
+		B596562117730E7600FED1BC /* TouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchViewController.m; sourceTree = "<group>"; };
+		B59656231773E64C00FED1BC /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		B59656241773E64C00FED1BC /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		B59656251773E64C00FED1BC /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5560B7E17775395007D6195 /* QuartzCore.framework in Frameworks */,
 				B59655FB1772F05D00FED1BC /* UIKit.framework in Frameworks */,
 				B59655FD1772F05D00FED1BC /* Foundation.framework in Frameworks */,
 				B59655FF1772F05D00FED1BC /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +87,7 @@
 		B59655F91772F05C00FED1BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B5560B7D17775395007D6195 /* QuartzCore.framework */,
 				B59655FA1772F05D00FED1BC /* UIKit.framework */,
 				B59655FC1772F05D00FED1BC /* Foundation.framework */,
 				B59655FE1772F05D00FED1BC /* CoreGraphics.framework */,
@@ -88,6 +103,13 @@
 				B59656121772F05E00FED1BC /* ViewController.h */,
 				B59656131772F05E00FED1BC /* ViewController.m */,
 				B59656151772F05E00FED1BC /* ViewController.xib */,
+				B596561D1772FA2D00FED1BC /* TouchNavigationController.h */,
+				B596561E1772FA2D00FED1BC /* TouchNavigationController.m */,
+				B596562017730E7600FED1BC /* TouchViewController.h */,
+				B596562117730E7600FED1BC /* TouchViewController.m */,
+				B59656231773E64C00FED1BC /* TestViewController.h */,
+				B59656241773E64C00FED1BC /* TestViewController.m */,
+				B59656251773E64C00FED1BC /* TestViewController.xib */,
 				B59656011772F05D00FED1BC /* Supporting Files */,
 			);
 			path = TouchNavigation;
@@ -163,6 +185,7 @@
 				B596560F1772F05D00FED1BC /* Default@2x.png in Resources */,
 				B59656111772F05D00FED1BC /* Default-568h@2x.png in Resources */,
 				B59656171772F05E00FED1BC /* ViewController.xib in Resources */,
+				B59656271773E64C00FED1BC /* TestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +199,9 @@
 				B59656071772F05D00FED1BC /* main.m in Sources */,
 				B596560B1772F05D00FED1BC /* AppDelegate.m in Sources */,
 				B59656141772F05E00FED1BC /* ViewController.m in Sources */,
+				B596561F1772FA2D00FED1BC /* TouchNavigationController.m in Sources */,
+				B596562217730E7600FED1BC /* TouchViewController.m in Sources */,
+				B59656261773E64C00FED1BC /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +287,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TouchNavigation/TouchNavigation-Prefix.pch";
 				INFOPLIST_FILE = "TouchNavigation/TouchNavigation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,6 +299,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TouchNavigation/TouchNavigation-Prefix.pch";
 				INFOPLIST_FILE = "TouchNavigation/TouchNavigation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -296,6 +324,7 @@
 				B596561C1772F05E00FED1BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

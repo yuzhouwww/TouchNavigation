@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "TouchNavigationController.h"
+#import "TestViewController.h"
 
 @implementation AppDelegate
 
@@ -24,7 +26,9 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    TestViewController *vc = [[[TestViewController alloc] initWithNibName:@"TestViewController" bundle:nil] autorelease];
+    TouchNavigationController *nav = [[[TouchNavigationController alloc] initWithRootViewController:vc] autorelease];
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
 }
