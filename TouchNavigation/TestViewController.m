@@ -36,8 +36,8 @@
 }
 
 - (IBAction)navPop:(id)sender {
-//    [self.touchNavigationController popViewControllerAnimated:YES];
-    [self.touchNavigationController popToRootViewControllerAnimated:YES];
+    [self.touchNavigationController popViewControllerAnimated:YES];
+//    [self.touchNavigationController popToRootViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning
