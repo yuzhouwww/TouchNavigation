@@ -17,5 +17,6 @@
 - (id)initWithRootViewController:(TouchViewController *)viewController;
 - (void)pushViewController:(TouchViewController *)viewController animated:(BOOL)animated;
 - (void)popViewControllerAnimated:(BOOL)animated;
-
+- (void)popToViewController:(TouchViewController *)viewController animated:(BOOL)animated;
+- (void)popToRootViewControllerAnimated:(BOOL)animated;
 @end

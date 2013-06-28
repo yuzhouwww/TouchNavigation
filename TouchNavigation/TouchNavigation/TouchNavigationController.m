@@ -139,7 +139,8 @@
         rect.origin.x = 320;
         viewController.view.frame = rect;
     } completion:^(BOOL finished) {
-        [viewController.view removeFromSuperview];    }];
+        [viewController.view removeFromSuperview];
+    }];
 }
 
 - (void)fadeBottomViewControllerByValue:(float)value
@@ -180,6 +181,28 @@
             }];
             bottomViewController = nil;
         }
+    }
+}
+
+- (void)popToViewController:(TouchViewController *)viewController animated:(BOOL)animated
+{
+    if ([self.stackViewControllers containsObject:viewController] && topViewController != viewController) {
+        if (bottomViewController == viewController) {
+            [self popViewControllerAnimated:animated];
+        }
+        else {
+            [self dismissViewController:bottomViewController animated:NO];
+            [self transitionViewControllerToBottom:viewController animated:NO];
+            [self.stackViewControllers removeObjectsInRange:NSMakeRange([self.stackViewControllers indexOfObject:viewController] + 1, [self.stackViewControllers indexOfObject:topViewController] - 1)];
+            [self popViewControllerAnimated:YES];
+        }
+    }
+}
+
+- (void)popToRootViewControllerAnimated:(BOOL)animated
+{
+    if (self.stackViewControllers.count > 0) {
+        [self popToViewController:[self.stackViewControllers objectAtIndex:0] animated:animated];
     }
 }
 
