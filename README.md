@@ -6,7 +6,7 @@
 
 ---
 
-![capture](https://dl.dropboxusercontent.com/u/95274982/%E7%85%A7%E7%89%87%2013-6-27%20%E4%B8%8B%E5%8D%886%2035%2004.png =250x)
+![capture](https://dl.dropboxusercontent.com/u/95274982/%E7%85%A7%E7%89%87%2013-6-27%20%E4%B8%8B%E5%8D%886%2035%2004.png)
 ---
 
 使用方法类型于UIKIT中的UINavigationController
